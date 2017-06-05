@@ -1,0 +1,148 @@
+/***** BASE STYLES *****/
+#body{
+    font-family: 'Life Savers', cursive;
+    width: 1200px;
+}
+#about, #work, #contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+/***** Header section *****/
+
+header {
+    height: 800px;
+    background: url('../img/sailboat.jpg');
+    background-size: cover;
+}
+header h1 {
+    padding: 50px 0;
+    font-family: 'Esteban', serif;
+    font-size:40px;
+    color:#bbc085;
+}
+nav {
+    float: right;
+    padding: 75px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size: 18px;
+    color: #bbc085;
+    padding-left: 80px;
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Esteban', serif;
+    font-size: 40px;
+    line-height: 60px;
+    color: darkblue;
+    padding: 20px 0;
+}
+header h2 span {
+    color: #bbc085;
+}
+/***** About section *****/
+#about .full-width {
+    padding: 80px 0;
+}
+#about h2 {
+    font-family: 'Esteban', serif;
+    font-size:36px;
+}
+#about p {
+    font-size:21px;
+    color:#7F7F7F;
+    line-height: 42px;
+    padding-right: 50px;
+}
+/***** Work section *****/
+#work {
+  background:#ecb8fc;
+  text-align:center;
+}
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+#work h3 {
+    font-size: 24px;
+    width:190px;
+    margin: 0 auto;
+}
+
+#work p {
+    font-family: 'Esteban', serif;
+    font-size: 18px;
+    line-height:30px;
+    color:#2B2B2B;
+    padding: 0 35px;
+}
+/***** Contact section *****/
+#contact {
+  background-color:#c4bcc6;
+  }
+  #contact .full-width {
+      padding: 110px 0;
+  }
+  #my-photo {
+      border: 1px solid purple;
+      width: 500px;
+
+  }
+  #contact h2, #email-header, #socialmedia-header, #contact ul {
+      padding-left: 115px;
+  }
+  #envelope {
+      padding: 0 10px 0 115px;
+      color: darkblue;
+  }
+  #contact h2 {
+        font-size: 36px;
+}
+#email-header{
+    font-size:29px;
+    font-weight: lighter;
+    margin: -30px 0 5px 0;
+}
+#socialmedia-header {
+    font-weight:bold;
+    font-size:29px;
+    margin: 20px 0 0 0;
+}
+#contact a {
+    text-decoration:none;
+    color: darkblue;
+    font-weight:bold;
+    font-size:28px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+    font-size: 32px;
+}
