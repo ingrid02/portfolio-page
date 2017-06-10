@@ -24,7 +24,7 @@
 
 header {
     height: 800px;
-    background: url('../img/sailboat.jpg');
+    background: url('../img/closeup-laptop.jpg');
     background-size: cover;
 }
 header h1 {
@@ -44,24 +44,30 @@ nav ul li a {
     text-transform:uppercase;
     text-decoration:none;
     font-size: 18px;
-    color: #bbc085;
+    color: rgb(223, 128, 255);
     padding-left: 80px;
+    font-weight:700;
 }
 header h2 {
-    width: 1000px;
+    width: 95%;
     clear: both;
     font-family: 'Esteban', serif;
     font-size: 40px;
     line-height: 60px;
-    color: darkblue;
+    color: rgb(223, 128, 255);
     padding: 20px 0;
+    text-align:center;
 }
 header h2 span {
     color: #bbc085;
 }
 /***** About section *****/
+#about{
+  background-color:#c4bcc6;
+}
 #about .full-width {
     padding: 80px 0;
+
 }
 #about h2 {
     font-family: 'Esteban', serif;
@@ -69,7 +75,7 @@ header h2 span {
 }
 #about p {
     font-size:21px;
-    color:#7F7F7F;
+    color:#595959;
     line-height: 42px;
     padding-right: 50px;
 }
@@ -98,6 +104,8 @@ header h2 span {
     color:#2B2B2B;
     padding: 0 35px;
 }
+
+
 /***** Contact section *****/
 #contact {
   background-color:#c4bcc6;
@@ -115,7 +123,7 @@ header h2 span {
   }
   #envelope {
       padding: 0 10px 0 115px;
-      color: darkblue;
+      color: purple;
   }
   #contact h2 {
         font-size: 36px;
@@ -132,7 +140,7 @@ header h2 span {
 }
 #contact a {
     text-decoration:none;
-    color: darkblue;
+    color: purple;
     font-weight:bold;
     font-size:28px;
 }
@@ -145,4 +153,11 @@ header h2 span {
 #contact ul img {
     padding-right: 48px;
     font-size: 32px;
+}
+
+/*footer*/
+
+footer h5 {
+  text-align:center;
+  color:purple;
 }
