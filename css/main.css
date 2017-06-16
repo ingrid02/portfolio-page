@@ -1,23 +1,25 @@
 /***** BASE STYLES *****/
 #body{
     font-family: 'Life Savers', cursive;
-    width: 1200px;
+    width: 100%;
 }
 #about, #work, #contact {
     height: 600px;
+
+
 }
 
 /***** GRID *****/
 .full-width {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 .half-width {
-    width: 600px;
+    width: 50%;
     float: left;
 }
 .third-width {
-    width: 400px;
+    width: 30%;
     float: left;
 }
 /***** Header section *****/
